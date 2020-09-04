@@ -1,0 +1,108 @@
+body {
+	background-color: #d9dbda !important;
+}
+.login {
+	width: 100%;
+	padding: 0;
+	margin: 70px auto;
+}
+.login .login-header {
+	height: 160px;
+	text-align: center;
+	background-color: #37bd67;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+.login .login-header h3 {
+	color: #fff;
+	font-size: 20pt;
+}
+
+.login .login-header .row {
+	height: 75px;
+	padding-bottom: 10px;
+}
+
+.login .login-header img {
+	margin: 0 auto;
+	width: 50px;
+	height: auto;
+}
+
+.login .login-body {
+	min-height: 310px;
+	background-color: #fff;
+	padding: 10px 20px;
+}
+.login .login-body .row{
+	margin: 20px 0;
+}
+
+.login .login-body .row #username, #password {
+	height: 40px;
+	border-radius: 8px;
+	background-color: #f5f7f6;
+	font-size: 12pt;
+	padding: 10px 20px;
+	margin: 10px 0px;
+}
+
+.login .login-body .row #remember {
+	width: 22px;
+	height: 22px;
+	cursor: pointer;
+	outline: none;
+	margin-right: 5px;
+	position: relative;
+	vertical-align: middle;
+	bottom: 4px;
+}
+
+
+.login .login-body .row #remember:after {
+	content: "";
+	display: inline-block;
+}
+
+.login .login-body .row #remember:checked:after {
+	content: "\2714";
+	width: 22px;
+	height: 22px;
+	font-size: 12pt;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	background-color: #37bd67;
+	outline: none;
+}
+
+.login .login-body .row label  {
+	cursor: pointer;
+	color: #338c52;
+	font-size: 13pt;
+}
+
+
+.login .login-body .row #login {
+	width: 100%;
+	background-color: #37bd67;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 13pt;
+	border-radius: 8px;
+	padding: 7px 0;
+	font-weight: bold;
+}
+
+.login .login-body .row #login:hover {
+	background-color: #338c52;
+}
+
+.login .login-body .row .error {
+	margin-bottom: 5px;
+	padding: 8px 15px;
+}
+
+
+
